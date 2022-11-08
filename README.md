@@ -5,7 +5,7 @@ COLING 2022: Perform Like an Engine: A Closed-Loop Neural-Symbolic Learning Fram
 This is the C++ implementation of our approach [EngineKG](https://aclanthology.org/2022.coling-1.119.pdf). We propose a novel and effective closed-loop neural-symbolic learning framework EngineKG via incorporating our developed KGE and rule learning modules. KGE module exploits symbolic rules and paths to enhance the semantic association between entities and relations for improving KG embeddings and interpretability. A novel rule pruning mechanism is proposed in the rule learning module by leveraging paths as initial candidate rules and employing KG embeddings together with concepts for extracting more high-quality rules.
 
 ## A Brief Overview of the EngineKG Architecture which Performs Like an Engine
-![image](https://github.com/ngl567/EngineKG/blob/master/architecture.png)
+![image](https://github.com/ngl567/EngineKG/blob/master/architecture.png)<br>
 
 ## The Whole Framework of the EngineKG that Conducts KG Embedding and Rule Learning Iteratively
 ![image](https://github.com/ngl567/EngineKG/blob/master/framework.png)
